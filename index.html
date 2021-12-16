@@ -1,62 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SOT Electronics</title>
+	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+	
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
 <body>
-<style type="text/css">.styles_overlay__CLSq- {
-  background: rgba(0, 0, 0, 0.75);
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  z-index: 1000;
-  padding: 1.2rem;
-}
-.styles_overlayCenter__YHoO7 {
-  align-items: center;
-}
-.styles_modal__gNwvD {
-  max-width: 800px;
-  position: relative;
-  padding: 1.2rem;
-  background: #ffffff;
-  background-clip: padding-box;
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
-}
-.styles_closeButton__20ID4 {
-  position: absolute;
-  top: 14px;
-  right: 14px;
-  border: none;
-  padding: 0;
-  background-color: transparent;
-  display: flex;
-}
-.styles_closeIcon__1QwbI {
-}
-.styles_transitionEnter__3j_-a {
-  opacity: 0.01;
-}
-.styles_transitionEnterActive___eQs7 {
-  opacity: 1;
-  transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-.styles_transitionExit__1KmEf {
-  opacity: 1;
-}
-.styles_transitionExitActive__1nQXw {
-  opacity: 0.01;
-  transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-</style>
-<title> SOT Electronics | On-line Retailer for all your electronic needs! </title>
-<h1> SOT Electronics </h1>
 
-<p> This is the website for our group project for IT Architecture </p>
+	<!-- NAVIGATION -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+  <div class="container">
+    <a class="navbar-brand" href="#">SOT Electronics</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">SHOP</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">PRODUCTS</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">SIGN IN</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">CONTACT US</a>
+        </li>
+		<li class="nav-item">
+          <i class="fal fa-search"></i>
+		  <i class="fal fa-shopping-bag"></i>
+        </li>
+		
+        
+    </div>
+  </div>
+</nav>
 
+
+<section id="home">
+	<div class="container">
+		<h5>NEW ARRIVALS</h5>
+		<h1><span>Best Price</span> for you<h1>
+		<p>Affordable electronics for your<br>everyday needs</p>
+		<button>Shop Now</button>
+	</div>
+</section>
+
+<section id="new" class="w-100">
+	<div class="row p-5 m-0">
+		<div class="one col-lg-4 col-md-12 col-12 p-0">
+			<img class="img-fluid" src="https://tse1.mm.bing.net/th?id=OIP.RlDM3vLZ8wI_8bK7hfXN-wHaEO&pid=Api&P=0&w=286&h=164" alt="">
+			<div class="details">
+				<h2> Kitchen Appliances </h2>
+				<button class="text-uppercase">Shop Now</button>
+			</div>
+		</div>
+		<div class="one col-lg-4 col-md-12 col-12 p-0">
+			<img class="img-fluid" src="https://tse2.mm.bing.net/th?id=OIP.sRxH9N87cXncJJv-rvk5tQHaHa&pid=Api&P=0&w=300&h=300" alt="">
+			<div class="details">
+				<h2> TV & Entertainment </h2>
+				<button class="text-uppercase">Shop Now</button>
+			</div>
+		</div>
+		<div class="one col-lg-4 col-md-12 col-12 p-0">
+			<img class="img-fluid" src="https://tse4.mm.bing.net/th?id=OIP.MqMbnGtGHT6VX0Y0mig3wQHaGI&pid=Api&P=0&w=216&h=180" alt="">
+			<div class="details">
+				<h2> Mobile Devices </h2>
+				<button class="text-uppercase">Shop Now</button>
+			</div>
+		</div>
+	</div>
+</section id="specials" class="my-5 pb-5">
+	<div class ="container text-center mt-5 py-5">
+		<h3> Special Offers </h3>
+		<hr class="mx-auto">
+		<p> Here you can check out our new special offers tailored to you</p>
+	</div>
+	<div class="row mx-auto container-fluid">
+		<div class="product text-center col-lg-3 col-md-4 col-12">
+			<img class="img-fluid mb-3" src="https://tse1.mm.bing.net/th?id=OIP.pYNjfnFp4qkgxYJ6ZNDVZwHaJy&pid=Api&rs=1&c=1&qlt=95&w=92&h=122" alt="">
+			<h5 class="p-name">Samsung Fridge</h5>
+			<h4 class="p-price"> Only €99.99 </h4>
+			<button class="buy-button">Buy Now!</button>
+		</div>
+		<div class="product text-center col-lg-3 col-md-4 col-12">
+			<img class="img-fluid mb-3" src="https://tse1.mm.bing.net/th?id=OIP.ErWyLnsbD8Bz_qtjqwL4zQHaFJ&pid=Api&P=0&w=226&h=158" alt="">
+			<h5 class="p-name">Bifinett Microwave</h5>
+			<h4 class="p-price"> Only €99.99 </h4>
+			<button class="buy-button">Buy Now!</button>
+		</div>
+		<div class="product text-center col-lg-3 col-md-4 col-12">
+			<img class="img-fluid mb-3" src="https://tse4.mm.bing.net/th?id=OIP.udUBO38uarNeT3ILLFFtuwHaHa&pid=Api&P=0&w=300&h=300" alt="">
+			<h5 class="p-name">LG Television</h5>
+			<h4 class="p-price"> Only €124.99 </h4>
+			<button class="buy-button">Buy Now!</button>
+		</div>
+		<div class="product text-center col-lg-3 col-md-4 col-12">
+			<img class="img-fluid mb-3" src="https://tse3.mm.bing.net/th?id=OIP.xUbI6xp6-sjaxFsD6D6y0QHaHa&pid=Api&P=0&w=300&h=300" alt="">
+			<h5 class="p-name">Sony Headphones</h5>
+			<h4 class="p-price"> Only €54.99 </h4>
+			<button class="buy-button">Buy Now!</button>
+		</div>
+	</div>
+<section id="banner" class="my-5 py-5"> 
+	<div class="container">
+		<h4> Christmas Specials </h4>
+		<h1> Winter collection <br> 20% off! </h1>
+		<button class="text-uppercase"> Shop Now </button>
+		
+</section>
+
+<section id="brand" class="container" class="b-2 w-100">
+	<div class="row m-0 py-5">
+		<img class="img-fluid col-lg-2 col-md-4 col-6" src="https://tse4.mm.bing.net/th?id=OIP.Ba23o0JXsVKxHUAH2xn19gHaEK&pid=Api&P=0&w=293&h=166" alt="">
+		<img class="img-fluid col-lg-2 col-md-4 col-6" src="https://tse4.mm.bing.net/th?id=OIP._B9ojeBcGr92FjNfeY3ZwgHaEK&pid=Api&P=0&w=297&h=168" alt="">
+		<img class="img-fluid col-lg-2 col-md-4 col-6" src="https://tse3.mm.bing.net/th?id=OIP.D9QCzPz6EEJoVc2eV3BlqwHaDf&pid=Api&P=0&w=391&h=185" alt="">
+		<img class="img-fluid col-lg-2 col-md-4 col-6" src="https://tse2.mm.bing.net/th?id=OIP.epoOz8tf9xtaIj8dU4WPIAHaBd&pid=Api&P=0&w=459&h=91" alt="">
+		<img class="img-fluid col-lg-2 col-md-4 col-6" src="https://tse4.mm.bing.net/th?id=OIP.2wW7Pi3KU5laxU1QtysCCAHaHa&pid=Api&P=0&w=300&h=300" alt="">
+		<img class="img-fluid col-lg-2 col-md-4 col-6" src="https://tse3.mm.bing.net/th?id=OIP.GMqgz-JxFZaDTwZx7v9wTgHaCA&pid=Api&P=0&w=586&h=159" alt="">
+	</div>
+</section>
+
+<footer class="mt-5 py-5">
+	<div class="row container mx-auto pt-5">
+		<div class ="footer-one col-lg-3 col-md-6 col-12">
+			<h1> SOT Electronics </h1>
+			<p> SOT Electronics Ltd. are a multinational organistion here to satisfy your electronic needs. Search SOT electronics on any web server for more information. </p>
+		</div>
+		<div class="footer-one col-lg-3 col-md-6 col-12">
+			<h5 class ="pb-2"> Featured </h5>
+			<ul class="text-uppercase list-unstyled">
+				<li><a href="#">Appliances</li>
+				<li><a href="#">TV & Audio</li>
+				<li><a href="#">Computing</li>
+				<li><a href="#">Gaming</li>
+				<li><a href="#">Cameras</li>
+				<li><a href="#">Phones</li>
+				<li><a href="#">Smart Tech</li>
+				<li><a href="#">Home and Outdoors</li>
+			</ul>
+		</div>
+		<div class="footer-one col-lg-3 col-md-6 col-12">
+			<h5 class="pb-2">Contact Us</h5>
+			<div>
+				<h6 class="text-uppercase">Email</h6>
+				<p> sotelectronics@gmail.com </p>
+			</div>
+			<div>
+				<h6 class="text-uppercase">Phone</h6>
+				<p> 01987546 </p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="copyright mt-5">
+		<div class="row container mx-autp">
+		
+			<div class="col-lg-3 col-md-6 col-12">
+				<img class="" src="https://tse2.mm.bing.net/th?id=OIP.5c3ciZhdxDnRdjaLN0ob-gHaBy&pid=Api&P=0&w=480&h=117" alt="">
+			</div>
+			<div class="row col-lg-4 col-md-6 col-12 text-nowrap">
+				<p> SOT Electronics eCommerce (c) 2021. All rights reserved </p>
+			</div>
+			<div class="col-lg-3 col-md-6 col-12">
+				<a href="#"><i class="fab fa-facebook-square"></i></a>
+				<a href="#"><i class="fab fa-twitter-square"></i></a>
+				<a href="#"><i class="fab fa-linkdein-in"></i></a>
+			</div>
+		</div>
+	</div>
+</footer> 
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
